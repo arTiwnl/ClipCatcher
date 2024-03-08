@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+.URL-box {
+  padding: 0px 0px 0px 10px;
+  height: 3em;
+  border-radius:4px 0px 0px 4px;
+  width:30em;
+  text-align: left;
+  border: none;
+  background: #EEEEEE;
+  outline:none;
+}
+
+.download-button{
+    height: 3em;
+    border-radius:0 4px 4px 0;
+    border: none;
+    background: #0485ff;
+    color:white;
+}
+
+.opt{
+  height: 3em;
+  border-width: 0px 0px 0px 1px;
+  background: #EEEEEE;
+}
